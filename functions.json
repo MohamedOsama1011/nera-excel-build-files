@@ -1,0 +1,54 @@
+{
+    "allowCustomDataForDataTypeAny": true,
+    "functions": [
+        {
+            "description": "Performs a private summation on secretly shared data.",
+            "id": "SUM",
+            "name": "SUM",
+            "parameters": [
+                {
+                    "description": "The username of the data owner.",
+                    "name": "userNameCell",
+                    "type": "any"
+                },
+                {
+                    "description": "The range containing indices.",
+                    "dimensionality": "matrix",
+                    "name": "indicesRanges",
+                    "type": "any"
+                },
+                {
+                    "description": "A single range or multiple ranges to process.",
+                    "dimensionality": "matrix",
+                    "name": "dataRanges",
+                    "type": "any"
+                }
+            ],
+            "result": {}
+        },
+        {
+            "id": "AVG",
+            "name": "AVG",
+            "parameters": [
+                {
+                    "description": "The username of the data owner.",
+                    "name": "userNameCell",
+                    "type": "any"
+                },
+                {
+                    "description": "The range containing indices.",
+                    "dimensionality": "matrix",
+                    "name": "indicesRanges",
+                    "type": "any"
+                },
+                {
+                    "description": "A single range or multiple ranges to process.",
+                    "dimensionality": "matrix",
+                    "name": "dataRanges",
+                    "type": "any"
+                }
+            ],
+            "result": {}
+        }
+    ]
+}
